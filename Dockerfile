@@ -2,7 +2,7 @@ FROM node:24-bookworm
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 # renovate: datasource=npm depName=cspell
-ENV CSPELL_VERSION="9.6.3"
+ENV CSPELL_VERSION="9.6.4"
 
 # Install tools
 #    Git     https://git-scm.com/
