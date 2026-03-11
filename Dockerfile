@@ -22,7 +22,8 @@ RUN npm install --global npm@latest \
     @cspell/dict-es-es \
     @cspell/dict-people-names \
     @cspell/dict-redis \
-    @cspell/dict-scientific-terms-us
+    @cspell/dict-scientific-terms-us \
+    @cspell/dict-cspell-bundle
 
 RUN cspell link add @cspell/dict-en-gb && \
     cspell link add @cspell/dict-en-gb-ise && \
@@ -30,4 +31,5 @@ RUN cspell link add @cspell/dict-en-gb && \
     cspell link add @cspell/dict-es-es && \
     cspell link add @cspell/dict-people-names && \
     cspell link add @cspell/dict-redis && \
-    cspell link add @cspell/dict-scientific-terms-us
+    cspell link add @cspell/dict-scientific-terms-us && \
+    cspell link add @cspell/dict-cspell-bundle
