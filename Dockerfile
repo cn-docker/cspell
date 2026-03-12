@@ -1,4 +1,4 @@
-FROM node:24-bookworm
+FROM node:lts-trixie
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 # renovate: datasource=npm depName=cspell
