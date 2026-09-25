@@ -2,7 +2,7 @@ FROM node:lts-trixie
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 # renovate: datasource=npm depName=cspell
-ENV CSPELL_VERSION="10.3.3"
+ENV CSPELL_VERSION="10.3.4"
 
 # Install tools
 #    Git     https://git-scm.com/
